@@ -6,7 +6,8 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar__top'>
-                <img src='' alt=''/>
+                {/* generic background */}
+                <img src='https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHww%3D&ww=1000&q=80' alt=''/>
                 <Avatar className='sidebar__avatar'/>
                 <h2>Saman Batool</h2>
                 <h2>samanbatool08@gmail.com</h2>
