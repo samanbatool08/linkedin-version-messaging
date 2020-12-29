@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css';
 import InputOption from './InputOption.js';
+import Post from './Post.js';
 import CreateIcon from '@material-ui/icons/Create';
 import ImageIcon from '@material-ui/icons/Image';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
@@ -27,6 +28,7 @@ function Feed() {
             </div>
 
             {/* Posts */}
+            <Post />
         </div>
     )
 }
