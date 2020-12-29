@@ -28,7 +28,7 @@ function Feed() {
             </div>
 
             {/* Posts */}
-            <Post />
+            <Post name='Saman Batool' description='This is a test' message='its working'/>
         </div>
     )
 }
