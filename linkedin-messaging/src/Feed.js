@@ -25,6 +25,8 @@ function Feed() {
                     <InputOption Icon={CalendarViewDayIcon} title='Write Article' color='#7FC15E'/>
                 </div>
             </div>
+
+            {/* Posts */}
         </div>
     )
 }
