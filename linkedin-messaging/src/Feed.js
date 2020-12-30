@@ -13,7 +13,6 @@ function Feed() {
 
     const sendPost = event => {
         event.preventDefault(); 
-        setPosts([...posts])
     }
 
     return (
