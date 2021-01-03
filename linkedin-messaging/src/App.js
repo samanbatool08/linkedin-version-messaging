@@ -9,6 +9,8 @@ import './App.css';
 
 function App() {
   const user = useSelector(selectUser);
+  
+  console.log(user)
 
   return (
     <div className="app">
